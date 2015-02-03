@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Circuit Cell</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Circuit Cell is an interactive educational website whose sole purpose it to teach elementary school students about circuits, magnetism, and elecricity.">
+    <meta name="author" content="Cristian Ramirez & Andrea Galvan">
+    <link rel="author" href="humans.txt"/>
+    <link href="assets/css/normalize.css" rel="stylesheet"/>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+    <link href="assets/css/mediaqueries.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav id="menu" class="panel" role="navigation">
+        <ul>            
+            <li><a href="lessons.html">LESSONS</a></li>
+            <li><a href="tutorials.html">TUTORIALS</a></li>
+            <li><a href="quizzes.html">QUIZZES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <div class="wrap push">   
+    <header>
+         <a href="index.html"><div id="lesson-banner" class="banner"></div></a>
+    </header>
+    <div class="push" id="mobile-nav">
+        <a href="#menu" class="menu-link">☰</a>
+        
+    </div>
+    <nav class="top-nav">
+        <ul>            
+            <li><a href="#lessons">LESSONS</a></li>
+            <li><a href="#tutorials">TUTORIALS</a></li>
+            <li><a href="#quizzes">QUIZZES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="main-sections first lessons">
+            <h2>ELECTRONIC CIRCUITS
+</h2>
+            <h3>What are Circuits?</h3>
+            <p> Circuits combine wires, electricity, and components in order to accomplish something.  This could be making light from a light switch, turning on a microwave, or getting a computer to work. All electronics have circuits.</p>
+        </section>
+        <section class="main-sections second lessons clearfix">
+            <img class="img-responsive" src="assets/img/integratedcircuit.png"> 
+            <h2>THE BASIC CIRCUIT</h2>
+            <p>Circuits need three things to work: a power source, connecting wires, and different components.  Power sources could be like batteries or even potatoes.<br>
+            <p>Circuits can be drawn through SCHEMATICS. Schematics show how everything is connected. They use specific symbols and drawings so that different workers can read the same thing.</p>
+            <img class="img-responsive" src="assets/img/schematics.png">
+            <p>Sometimes there are a lot of components, so everything must go onto a PRINTED CIRCUIT BOARD. These types of circuits connect lots of different components into one working circuit.  There are no wires needed because they are built into the board.</p>
+        </section>
+        <section class="main-sections third">
+            <h2>TYPES OF COMPONENTS</h3>
+            <p>There are two types of components: PASSIVE and ACTIVE.  Passive components don't need to be directly connected to a power source.  Active components need external power, and are directly connected to a power source.</p>
+        </section>
+        <section class="main-sections third hack">
+            
+            <div id="slidr-magnets" class="slidr ">
+                <img data-slidr="one" id="slidr-earth" class="slidr-images">
+                <img data-slidr="two" id="slidr-compass" class="slidr-images">
+                <img data-slidr="three" id="slidr-disc" class="slidr-images">
+                <img data-slidr="four" id="slidr-fridge" class="slidr-images">
+                <img data-slidr="five" id="slidr-horseshoe" class="slidr-images">
+            </div>    
+        </section>
+        <section class="main-sections first">
+            <h2>EXAMPLES OF CIRCUITS
+</h2>
+            
+            <div id="slidr-circuits" class="slidr">
+                <img data-slidr="one" id="slidr-clock" class="slidr-images">
+                <img data-slidr="two" id="slidr-computer" class="slidr-images">
+                <img data-slidr="three" id="slidr-light" class="slidr-images">
+            </div>    
+        </section>
+        <section class="main-sections first">
+            <p>YES, the Earth is a MAGNET! The core is made of of mainly IRON.  The outer core is LIQUID iron that spins and makes the earth into a giant MAGNET.  This is how compasses work and allow us to find the right direction. The Earth also has a magnetic field surrounding it that protects us from the Sun's harmful rays.<p/>   
+        </section>
+        <footer>
+            <p>C2014 CIRCUIT CELL</p>
+        </footer>
+    </main>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/bigslide.js"></script>
+    <script src="assets/js/slidr.js"></script>  
+    <script src="assets/js/plugins.js"></script>    
+</body>
+</html>

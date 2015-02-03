@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    color: #FFFFFF;
+    font-family: "Contrail One";
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url('../fonts/SourceSansPro-Regular.ttf')
+}
+
+@font-face{
+    font-family: "Contrail One";
+    src: url('../fonts/ContrailOne-Regular.ttf');
+}
+
+header{
+    background-color: #F4E7DD;
+    text-align: center;
+}
+
+.wrap { 
+  position: relative; 
+  max-width: 100%;
+  margin: auto;
+}
+
+#logo{
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #BE3B3B;
+    margin: 0;
+    padding: 10px;
+}
+
+footer > p{
+    text-align: left;
+    margin: 0;
+}
+
+div{
+    overflow: hidden;
+}
+
+h2{
+    margin: 0;
+    font-family: "Contrail One";
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+    margin: 0;
+    font-family: "Contrail One";
+}
+
+/* nav */
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+li a{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: "Contrail One";
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.vocab li{
+    display: block;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+nav{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #5B7A8C;
+    padding: 0;
+}
+
+#mobile-nav{
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+	margin: 0;
+	background-color: #34302D;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 7px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #5B7A8C;
+    opacity: 0.4;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.menu-link img{
+    width: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.menu-link:hover{
+    opacity: 1;
+}
+
+.panel {
+    position: fixed;
+    background-color: #34302D;
+    left: 8em;
+    display: none;
+}
+
+.panel ul{
+    width: 50px;
+}
+
+.panel ul li a{
+    display: block;
+    margin: 50px 0px 0 10px;
+}
+/* banners */
+
+.banner{
+    height: 450px;
+    margin: 0 auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#index-banner{
+    background: url("../img/index.svg") no-repeat center center;
+}
+
+#about-banner{
+    background: url("../img/lesson.svg") no-repeat center center;
+}
+
+#tutorial-banner{
+    background: url("../img/tutorial.svg") no-repeat center center;
+}
+
+#lesson-banner{
+    background: url("../img/lesson.svg") no-repeat center center;
+}
+
+#hub-banner{
+    background: url("../img/tutorial.svg") no-repeat center center;
+}
+
+
+
+
+/* main content */
+
+.main-sections{
+    padding: 15px;
+    text-align: center;
+}
+
+.main-sections p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.content-circle{
+    text-align: center;
+    max-width: 33%; /* dont know if this is considered harmful */
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.clip-circle img{
+    width: 50%;
+    height: 50%;
+}
+
+.content-circle h3{
+    font-size: 2em;
+    width: auto;
+}
+
+.first{
+    background-color: #BE3B3B;
+}
+
+.second{
+    background-color: #EE984A;
+}
+
+.third{
+    background-color: #5B7A8C;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.half{
+    width: 49%;
+    display: inline-block;
+}
+
+
+/*slidr styles */
+.slidr{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.slidr-images{
+    height: 225px;
+    width: 225px;
+    background-repeat: no-repeat;
+    right: 35px;
+    top: 35px;
+}
+
+#slidr-earth{
+    background-image: url('../img/earth.png');
+}
+
+#slidr-compass{
+    background-image: url('../img/compass.png');
+}
+
+#slidr-disc{
+    background-image: url('../img/disc.png');
+}
+
+#slidr-fridge{
+    background-image: url('../img/fridge.png');
+}
+
+#slidr-horseshoe{
+    background-image: url('../img/horseshoe.png');
+}
+
+#slidr-lightning{
+    background-image: url('../img/lightning-225.png');
+}
+
+#slidr-generator{
+    background-image: url('../img/generator.png');
+}
+
+.hack{
+    display: none !important;
+}
+
+/* quiz styles */
+
+#submit{
+    border: none;
+    border-radius: 10px;
+    background-color: #34302D;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#submit:hover{
+    color: #34302D;
+    background-color: #FFFFFF;
+}
+.answers{
+    display: block;
+    margin: 0 auto;
+    width: 375px;
+}
+
+.answers label{
+    padding-top: 10px;
+}
+
+#result, #pass-fail{
+    margin-top: 10px;
+}
+
+/* tutorial styles */
+
+.drag-container{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.dropzone {
+    background-color: #ccc;
+    border: dashed 3px transparent;
+    border-radius: 4px;
+    margin: 10px auto 30px;
+    width: 80%;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.drop-active {
+  border-color: #666;
+}
+
+.drop-target {
+  background-color: #29e;
+}
+
+.drag-drop{
+  display: inline-block;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.draggable{
+    z-index: 2000;
+}
+
+.drag-drop.can-drop { 
+    background-color: #4e4; 
+}
+
+/* circuits tutorial */
+#battery{
+    background: url('../img/battery.png') no-repeat;
+    height: 95px;
+    width: 208px;
+}
+
+#wire-left{
+    background-image: url('../img/copperwire-left.png');
+    width: 120px;
+    height: 235px;
+}
+
+#wire-right{
+    background-image: url('../img/copperwire-right.png');
+    width: 121px;
+    height: 231px;
+}
+
+#lightbulb-circuits{
+    background: url('../img/lightbulb-off.png') no-repeat;
+    width: 158px;
+    height: 218px;
+    position: relative;
+    float: right;
+    margin-right: 350px;
+}
+
+.battery-drop{
+    height: 95px;
+    width: 208px;
+    position: relative;
+    top: 420px;
+    left: 425px;
+}
+
+
+

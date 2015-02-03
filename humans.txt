@@ -1,0 +1,21 @@
+/* TEAM */
+Developer: Cristian Ramirez
+Twitter: @fun_lambda
+Site: http://shsalt.github.io/
+E-mail: rmrz.cristian96@gmail.com
+
+Designer: Andrea Galvan
+Twitter: @citruscrepe
+Site: http://andreajgalvan.github.io
+E-mail: andrea.galvan075@gmail.com
+
+/* THANKS */
+Teacher: Cindy Chang
+Mentor: Nick Overman
+Educational Mentor: Joshua Locklear
+
+/* SITE */
+Last update: 
+Standards: HTML5, CSS3
+Components: Normalize, jQuery
+Software: vim, Brackets, Adobe Illustrator, Chromium

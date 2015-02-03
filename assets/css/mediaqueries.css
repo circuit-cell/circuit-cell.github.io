@@ -1,0 +1,60 @@
+@media (max-width: 768px){
+    .content-circle{
+        min-width: 50%;
+        padding: 15px;
+    }
+
+    .top-nav{
+        padding: 10px;
+        margin: 0 auto;
+        min-width: 480px;
+    }
+    
+    li a{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px){
+    header{
+        margin-top: 45px;
+    }
+    
+    #mobile-nav{
+       	display: inline;
+    }
+    
+    #index-banner, #about-banner, #tutorial-banner, #lesson-banner, #hub-banner{
+        background: url("../img/logo.png") no-repeat center center;
+        height: 225px;
+    }
+    
+    .panel{
+        display: inline;
+    }
+    
+    .half{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .top-nav{
+        display: none;
+    }
+    
+    li a{
+        font-size: 1.8em;
+    }
+    
+    .slidr{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .img-responsive{
+        height: 95%;
+        width: 95%;
+    }
+}

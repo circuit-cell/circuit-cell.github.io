@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="320px" height="300px" viewBox="-10 0 310 300" zoomAndPan="disable">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerUnits="strokeWidth" orient="auto" markerWidth="8" markerHeight="6">
+    <polyline points="0,0 10,5 0,10 3,5" style="fill:black; stroke-width:0px;"/>   
+  </marker>
+<style type="text/css">
+    path{
+      stroke: black;
+      fill: none;
+      stroke-width: 2px;
+    }
+    *[vector="yes"]{
+      marker-end: url("#arrow"); 
+      marker-mid: url("#arrow");
+    }
+</style>
+</defs>
+<g transform="rotate(-20,150,150)">
+<path d="M150,0 L150,120" vector="yes"/>
+<path d="M150,180 L150,300" vector="yes"/>
+<path d="M155,180 C165,275,300,275,300,150 C300, 25,165, 25,155,120" vector="yes" style="marker-end:none;"/>
+<path d="M160,180 C170,250,275,250,275,150 C275, 50,170, 50,160,120" vector="yes"/>
+<path d="M165,180 C175,225,250,225,250,150 C250, 75,175, 75,165,120" vector="yes" style="marker-end:none;"/>
+<path d="M145,180 C135,275,00,275,00,150 C00, 25,135, 25,145,120" vector="yes" style="marker-end:none;"/>
+<path d="M140,180 C130,250,25,250,25,150 C25, 50,130, 50,140,120" vector="yes"/>
+<path d="M135,180 C125,225,50,225,50,150 C50, 75,125, 75,135,120" vector="yes" style="marker-end:none;"/>
+<circle cx="150" cy="150" r="90" stroke="blue" stroke-width="2" fill="none"/>
+<path d="M135,120 L165,120, 165,180, 135, 180, 135,120"/>
+<path d="M135,180 L165,180, 165,150, 135, 150, 135,180" style="stroke:none; fill:red;"/>
+<text x="144" y="137">S</text>
+<text x="144" y="175">N</text>
+</g>
+</svg>
