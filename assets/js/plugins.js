@@ -18,13 +18,6 @@ $(document).ready(function() {
         pause: false,
         transition: 'cube'
 }).add('h', ['one', 'two', 'one']).auto();
-    slidr.create('slidr-circuits', {
-        breadcrumbs: true,
-        overflow: true,
-        touch: true,
-        keyboard: true,
-        pause: false,
-        transition: 'cube'
-}).add('h', ['one', 'two', 'three', 'one']).auto();
+   
 
 });

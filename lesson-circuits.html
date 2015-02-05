@@ -16,10 +16,10 @@
 <body>
     <nav id="menu" class="panel" role="navigation">
         <ul>            
-            <li><a href="lessons.html">LESSONS</a></li>
-            <li><a href="tutorials.html">TUTORIALS</a></li>
-            <li><a href="quizzes.html">QUIZZES</a></li>
-            <li><a href="about.html">ABOUT</a></li>
+                <li><a href="hub-lessons.html">LESSONS</a></li>
+                <li><a href="hub-tutorials.html">TUTORIALS</a></li>
+                <li><a href="hub-quizzes.html">QUIZZES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
         </ul>
     </nav>
     <div class="wrap push">   
@@ -32,10 +32,10 @@
     </div>
     <nav class="top-nav">
         <ul>            
-            <li><a href="#lessons">LESSONS</a></li>
-            <li><a href="#tutorials">TUTORIALS</a></li>
-            <li><a href="#quizzes">QUIZZES</a></li>
-            <li><a href="about.html">ABOUT</a></li>
+                <li><a href="hub-lessons.html">LESSONS</a></li>
+                <li><a href="hub-tutorials.html">TUTORIALS</a></li>
+                <li><a href="hub-quizzes.html">QUIZZES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
         </ul>
     </nav>
     <main>
@@ -78,15 +78,25 @@
             </div>    
         </section>
         <section class="main-sections first">
-            <p>YES, the Earth is a MAGNET! The core is made of of mainly IRON.  The outer core is LIQUID iron that spins and makes the earth into a giant MAGNET.  This is how compasses work and allow us to find the right direction. The Earth also has a magnetic field surrounding it that protects us from the Sun's harmful rays.<p/>   
+        <p>Do you understand? Let's try a hands on experiment!<p/>   
         </section>
         <footer>
-            <p>C2014 CIRCUIT CELL</p>
+            <p>C2014-2015 CIRCUIT CELL</p>
         </footer>
     </main>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="assets/js/bigslide.js"></script>
     <script src="assets/js/slidr.js"></script>  
-    <script src="assets/js/plugins.js"></script>    
+    <script src="assets/js/plugins.js"></script> 
+    <script>
+     slidr.create('slidr-circuits', {
+        breadcrumbs: true,
+        overflow: true,
+        touch: true,
+        keyboard: true,
+        pause: false,
+        transition: 'cube'
+}).add('h', ['one', 'two', 'three', 'one']).auto();    
+    </script>    
 </body>
 </html>

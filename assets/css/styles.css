@@ -62,6 +62,11 @@ div{
     overflow: hidden;
 }
 
+.hub-heading{
+    font-size: 3em;
+    margin: 20px 0 -10px 0;
+}
+
 h2{
     margin: 0;
     font-family: "Contrail One";
@@ -191,6 +196,9 @@ nav{
     background: url("../img/tutorial.svg") no-repeat center center;
 }
 
+#quiz-banner{
+    background: url("../img/quiz.svg") no-repeat center center;
+}
 
 
 
@@ -211,6 +219,10 @@ nav{
     max-width: 33%; /* dont know if this is considered harmful */
     display: inline-block;
     margin: 0 auto;
+}
+
+.half-circle{
+    width: 49%;
 }
 
 .clip-circle img{
@@ -286,6 +298,18 @@ nav{
 
 #slidr-generator{
     background-image: url('../img/generator.png');
+}
+
+#slidr-clock{
+    background-image: url('../img/clock.png');
+}
+
+#slidr-computer{
+    background-image: url('../img/computer.png');
+}
+
+#slidr-light{
+    background-image: url('../img/lightbulb.png');
 }
 
 .hack{
