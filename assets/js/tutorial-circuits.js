@@ -1,5 +1,4 @@
-var points = 0
-
+var points = 0;
 $(document).ready(function(){    
     // target elements with the "draggable" class
     interact('.draggable')
@@ -67,6 +66,7 @@ $(document).ready(function(){
           },
           ondrop: function (event) {
             ++points;
+            console.log(points);
             if (points == 3){
             }
           },
@@ -76,13 +76,13 @@ $(document).ready(function(){
             event.target.classList.remove('drop-target');
           }
       });
-      interact('.dropzone').dropzone({
+      interact('.wire-right-drop').dropzone({
           // only accept elements matching this CSS selector
           accept: '#wire-right',
           // Require a 75% element overlap for a drop to be possible
-          overlap: 0.85,
+          overlap: 0.95,
 
-          // listen for drop related events:
+          // listen f or drop related events:
 
           ondropactivate: function (event) {
             // add active dropzone feedback
@@ -104,7 +104,46 @@ $(document).ready(function(){
           },
           ondrop: function (event) {
             ++points;
+            console.log(points);
             if (points == 3){
+            }
+          },
+          ondropdeactivate: function (event) {
+            // remove active dropzone feedback
+            event.target.classList.remove('drop-active');
+            event.target.classList.remove('drop-target');
+          }
+      });
+    interact('.wire-left-drop').dropzone({
+          // only accept elements matching this CSS selector
+          accept: '#wire-left',
+          // Require a 75% element overlap for a drop to be possible
+          overlap: 0.95,
+
+          // listen f or drop related events:
+
+          ondropactivate: function (event) {
+            // add active dropzone feedback
+            event.target.classList.add('drop-active');
+          },
+          ondragenter: function (event) {
+            var draggableElement = event.relatedTarget,
+                dropzoneElement = event.target;
+
+            // feedback the possibility of a drop
+            dropzoneElement.classList.add('drop-target');
+            draggableElement.classList.add('can-drop');
+          },
+          ondragleave: function (event) {
+            // remove the drop feedback style
+            event.target.classList.remove('drop-target');
+            event.relatedTarget.classList.remove('can-drop');
+            --points;  
+          },
+          ondrop: function (event) {
+            ++points;
+            console.log(points);
+            if (points === 3){
             }
           },
           ondropdeactivate: function (event) {

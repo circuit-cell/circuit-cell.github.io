@@ -379,27 +379,38 @@ nav{
     z-index: 2000;
 }
 
+/*
 .drag-drop.can-drop { 
     background-color: #4e4; 
 }
+*/
+
 
 /* circuits tutorial */
 #battery{
     background: url('../img/battery.png') no-repeat;
     height: 95px;
     width: 208px;
+    position: relative;
+    bottom: 600px;
 }
 
 #wire-left{
     background-image: url('../img/copperwire-left.png');
-    width: 120px;
-    height: 235px;
+    width: 158px;
+    height: 315px;
+    position: relative;
+    bottom: 550px;
+    right: 300px;
 }
 
 #wire-right{
     background-image: url('../img/copperwire-right.png');
-    width: 121px;
-    height: 231px;
+    width: 158px;
+    height: 315px;
+    position: relative;
+    bottom: 550px;
+    right: 300px;
 }
 
 #lightbulb-circuits{
@@ -409,6 +420,7 @@ nav{
     position: relative;
     float: right;
     margin-right: 350px;
+    z-index: 1;
 }
 
 .battery-drop{
@@ -419,5 +431,22 @@ nav{
     left: 425px;
 }
 
+.wire-right-drop{
+    width: 158px;
+    height: 315px;
+    position: relative;
+    left: 300px;
+    z-index: 0;
+    top: 30px;
+}
+.wire-left-drop{
+    width: 158px;
+    height: 315px;
+    position: relative;
+    left: 300px;
+    z-index: 0;
+    bottom: 325px;
+}
 
+/* magnets tutorial */
 
