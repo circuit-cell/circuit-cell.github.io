@@ -450,18 +450,30 @@ nav{
 
 /* magnets tutorial */
 
+.height-adjustment{
+    position: relative;
+    bottom: 200px;
+    margin-bottom: -150px;
+}
+
 #magnetstack{
     background-image: url('../img/magnetstack.png');
     width: 80px;
     height: 120px;
     position: relative;
+    bottom: 700px;
+    right: 300px;
 }
 
 #motor-copperwire2{
     background-image: url('../img/motor-copperwire2.png');
     width: 122px;
     height: 172px;
+    margin: 0 auto;
     position: relative;
+    top: 395px;
+    left: 215px;
+    z-index: 2;
 }
 
 #motor-copperwire3{
@@ -469,6 +481,10 @@ nav{
     width: 339px;
     height: 299px;
     position: relative;
+    margin: 0 auto;
+    top: 90px;
+    right: 20px;
+    z-index: 2;
 }
 
 #spinny{
@@ -476,6 +492,8 @@ nav{
     width: 367px;
     height: 223px;
     position: relative;
+    bottom: 100px;
+    margin: 0 auto;
 }
 
 #tapedbattery{
@@ -483,4 +501,21 @@ nav{
     width: 63px;
     height: 140px;
     position: relative;
+    bottom: 600px;
+    left: 400px;
+}
+
+.tapedbattery-drop{
+    height: 140px;
+    width: 63px;
+    position: relative;
+    bottom: 425px;
+    left: 140px
+}
+
+.magnet-drop{
+    width: 80px;
+    height: 120px;
+    position: relative;
+    bottom: 425px;
 }
