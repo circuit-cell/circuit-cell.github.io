@@ -450,4 +450,37 @@ nav{
 
 /* magnets tutorial */
 
+#magnetstack{
+    background-image: url('../img/magnetstack.png');
+    width: 80px;
+    height: 120px;
+    position: relative;
+}
 
+#motor-copperwire2{
+    background-image: url('../img/motor-copperwire2.png');
+    width: 122px;
+    height: 172px;
+    position: relative;
+}
+
+#motor-copperwire3{
+    background-image: url('../img/motor-copperwire3.png');
+    width: 339px;
+    height: 299px;
+    position: relative;
+}
+
+#spinny{
+    background-image: url('../img/spinnything.png');
+    width: 367px;
+    height: 223px;
+    position: relative;
+}
+
+#tapedbattery{
+    background-image: url('../img/tapedbattery.png');
+    width: 63px;
+    height: 140px;
+    position: relative;
+}
