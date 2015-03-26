@@ -345,6 +345,11 @@ nav{
 
 /* tutorial styles */
 
+.tutorial-text{
+    font-size: 1.25em;
+    padding: 10px;
+}
+
 .drag-container{
     width: 1200px;
     height: 600px;
@@ -387,6 +392,8 @@ nav{
 
 
 /* circuits tutorial */
+
+
 #battery{
     background: url('../img/battery.png') no-repeat;
     height: 95px;
