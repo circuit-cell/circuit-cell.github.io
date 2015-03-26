@@ -228,8 +228,13 @@ nav{
 .clip-circle img{
     width: 50%;
     height: 50%;
+    transition: opacity .3s;
 }
 
+.clip-circle img:hover{
+    opacity: .8;
+}
+    
 .content-circle h3{
     font-size: 2em;
     width: auto;
