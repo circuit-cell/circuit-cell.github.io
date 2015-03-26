@@ -1,4 +1,7 @@
 @media (max-width: 768px){
+    .clip-circle img:hover{
+        opacity: 1;
+    }
     .content-circle{
         min-width: 50%;
         padding: 15px;
